@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<credits>
+  <image page="home">
+    <name>mw_igor_thumb.jpg</name>
+    <source>img/mw_igor_desktop.jpg</source>
+    <author>Igor Chilingarian</author>
+    <web>https://pweb.cfa.harvard.edu/people/igor-chilingarian</web>
+    <description>Panoramic view of the Milky Way Center from Las Campanas Observatory on July 4 2017.</description>
+  </image>
+  
+  <image page="mission">
+    <name>mission_tng_thumb.jpg</name>
+    <source>https://www.tng-project.org/static/tng/media/TNG50_protocluster_z1_dm_gasvel_4k.png</source>
+    <author>D. Nelson / TNG Collaboration</author>
+    <web>https://www.tng-project.org/</web>
+    <description>A protocluster forming in the Illustris TNG50 hydrodynamical simulation. Large dark matter halos (orange) are connected by a bridge of tenuous dark matter bridge (blue). High speed gas motions (in white) reveal ram-pressure and tidal stripping of orbiting satellite galaxies, as well as galactic-scale outflows driven by feedback.</description>
+  </image>
+  
+  <image page="mission">
+    <name>mission_cosmicweb_thumb.jpg</name>
+    <source>https://www.tng-project.org/static/tng/media/boxComposite_TNG100-1_gas-shocks_machnum_dm-coldens_2000.png</source>
+    <author>D. Nelson / TNG Collaboration</author>
+    <web>https://www.tng-project.org/</web>
+    <description>Dark matter density of the entire TNG100-1 cosmological simulation box (orange/white), overlaid on top of the average number of shocks along the line of sight (blue).</description>
+  </image>
+  
+  <image page="mission">
+    <name>dm_models_shade_thumb.jpg</name>
+    <source>img/dm_models_shade.jpg</source>
+    <author>Ethan Nadler</author>
+    <web>https://eonadler.github.io/</web>
+    <description>Projected dark matter density of a Milky Way-like halo in the case of warm dark matter (left), cold dark matter (center), and self-interacting dark matter (right).</description>
+  </image>
+  
+  <image page="mission">
+    <name>ufd_thumb.jpg</name>
+    <source>img/ufd.jpg</source>
+    <author>Via Team</author>
+    <web>https://via-project.org</web>
+    <description>Synthetic HST/WFC3 image of a simulated ultra-faint dwarf galaxy (1,000 solar masses, 15 pc half-mass radius) at a distance of 120 kpc. Composite image maps the F814W band to red, F606W to green, F475W to blue, and F275W to purple.</description>
+  </image>
+  
+  <image page="mission">
+    <name>outflow_schneider_thumb.jpg</name>
+    <source>https://vimeo.com/354040601</source>
+    <author>Evan Schneider</author>
+    <web>https://evaneschneider.org/</web>
+    <description>Gas density field in an outflow simulation driven by a few massive star clusters near the center of the disk. Simulation performed with the Cholla astrophysics code at a fixed resolution.</description>
+  </image>
+  
+  <image page="spectrographs">
+    <name>diffraction_grating_thumb.jpg</name>
+    <source>https://www.sciencephoto.com/media/111290/view</source>
+    <author>Science Photo Library</author>
+    <web>https://www.sciencephoto.com/</web>
+    <description>A beam of white light passing through a diffraction grating. Diffracted light propagates along discrete diffraction orders, with the zeroth order exhibiting no dispersion, while the higher orders are dispersed into a rainbow of colors.</description>
+  </image>
+  
+  <image page="spectrographs">
+    <name>system_design_thumb.png</name>
+    <source>img/system_design.png</source>
+    <author>Via Team</author>
+    <web>https://via-project.org</web>
+    <description>CAD model of the entire ViaSpec system, with the fiber positioner mounted on the back of the 6.5m MMT mirror and the bench spectrograph on top of a cart parked on the dome floor.</description>
+  </image>
+  
+  <image page="spectrographs">
+    <name>viaspec_fps_thumb.png</name>
+    <source>img/viaspec_fps_med.png</source>
+    <author>Via Team</author>
+    <web>https://via-project.org</web>
+    <description>CAD model of the ViaSpec focal plane system, with the mounting flange to fit the MMT telescope. A single robotic actuator is shown in the middle of the focal plane.</description>
+  </image>
+  
+  <image page="spectrographs">
+    <name>viaspec_optics_thumb.png</name>
+    <source>img/viaspec_optics_med.png</source>
+    <author>Via Team</author>
+    <web>https://via-project.org</web>
+    <description>Optical design of the ViaSpec bench spectrograph. The light path starts at the fiber slit, reflects off the collimator and fold mirrors, is dispersed through a binary diffraction grating, and gets focused through six lenses to form an image on a CCD detector.</description>
+  </image>
+  
+  <image page="telescopes">
+    <name>mmt_igor_thumb.jpg</name>
+    <source>img/mmt_igor_med.jpg</source>
+    <author>Igor Chilingarian</author>
+    <web>https://pweb.cfa.harvard.edu/people/igor-chilingarian</web>
+    <description>View from the inside of the MMT dome in September 2015, with the telescope support beams and the secondary mirror in view.</description>
+  </image>
+  
+  <image page="telescopes">
+    <name>mmt_panorama_igor_thumb.jpg</name>
+    <source>img/mmt_panorama_igor_med.jpg</source>
+    <author>Igor Chilingarian</author>
+    <web>https://pweb.cfa.harvard.edu/people/igor-chilingarian</web>
+    <description>Panoramic view of the Mount Hopkins summit in September 2015, with the MMT dome open. The Andromeda galaxy is visible on the top left of the dome.</description>
+  </image>
+  
+  <image page="telescopes">
+    <name>lco_colcorr_igor_thumb.jpg</name>
+    <source>img/lco_colcorr_igor_med.jpg</source>
+    <author>Igor Chilingarian</author>
+    <web>https://pweb.cfa.harvard.edu/people/igor-chilingarian</web>
+    <description>Panoramic view of the Cerro Manqui peak in July 2013, with the Magellan/Baade telescope on the right, Magellan/Clay on the left, and the Galactic Center directly above them.</description>
+  </image>
+  
+  <image page="survey">
+    <name>gaia_gas_thumb.jpg</name>
+    <source>img/gaia_gas_med.jpg</source>
+    <author>Via Team</author>
+    <web>https://via-project.org</web>
+    <description>All sky map of stars in the Milky Way from the Gaia mission, overlaid by the map of neutral hydrogen gas, detected by the HI4PI project and tuned to emphasize edges of the gas emission.</description>
+  </image>
+  
+  <image page="survey">
+    <name>survey_footprint_offset_thumb.png</name>
+    <source>img/survey_footprint_offset_med.png</source>
+    <author>Via Team</author>
+    <web>https://via-project.org</web>
+    <description>Footprint of the Via nominal survey in galactic sky coordinates. Red fields mark currently known dwarf galaxies, orange fields are placed on known stellar streams outside of 10 kpc, and blue marks blank fields for contiguous mapping of the halo gas. Fields above the sky equator (dark-red, dashed line) will be covered by MMT, and those below by Magellan.</description>
+  </image>
+  
+  <image page="team">
+    <name>us_night_thumb.jpg</name>
+    <source>https://earthobservatory.nasa.gov/images/79800/city-lights-of-the-united-states-2012</source>
+    <author>NASA Earth Observatory</author>
+    <web>https://earthobservatory.nasa.gov/</web>
+    <description>North America at night in 2012, imaged by the Suomi National Polar-orbiting Partnership weather satellite using the Visible Infrared Imaging Radiometer Suite instrument, sensitive to wavelengths ranging from green to near-infrared light, and optimized for detecting faint emissions such as city lights.</description>
+  </image>
+  
+  <image page="team">
+    <name>parts_thumb.jpg</name>
+    <source>img/parts_med.jpg</source>
+    <author>Vince Kowal</author>
+    <web>https://obs.carnegiescience.edu/vincent-kowal</web>
+    <description>Magellan 2 axis load spreader links imaged before being shipped to Las Campanas. Designed by Charlie Hull as a part of the seismic retrofit for the Magellan primary mirrors.</description>
+  </image>
+</credits>
+
