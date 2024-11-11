@@ -10,7 +10,7 @@ function Team() {
           <div className="background" style={{backgroundImage: "url(../img/us_night_med.jpg)"}}></div>
           <div className="inner-center-bottom" style={{bottom:"2%"}}>
             <h1>A Collaboration</h1>
-            <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>{'Carnegie Observatories \u25cf Center for Astrophysics \u25cf Stanford'}</h4>
+            <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>{'Carnegie Observatories \u25cf Center for Astrophysics \u25cf Stanford \u25cf Yale'}</h4>
           </div>
         </div>
         
@@ -18,7 +18,7 @@ function Team() {
           <div className="background" style={{backgroundImage: "url(../img/parts_med.jpg)"}}></div>
           <div className="background-gradient"></div>
           
-          <div className="inner-left-bottom">
+          <div className="inner-left-bottom" style={{maxWidth:"580px"}}>
             <h3>The Via Team</h3>
             <p style={{color: "#fff"}}>A small group of engineers, project managers, and scientists with experience in building optical spectrographs, focal plane systems, and control and analysis pipelines are the core builders of Via.</p>
             
@@ -39,14 +39,13 @@ function Team() {
               </tbody>
             </table>
             
-            <p className="team">At Carnegie</p>
-            <p>Julia Brady, David Cruz, Julian Garcia, Charlie Hull, Jack Piotrowski</p>
+            <p><span className="team">At Carnegie:</span> Julia Brady, David Cruz, Julian Garcia, Charlie Hull, Jake Nibauer, Jack Piotrowski, Tony Piro, Josh Simon</p>
             
-            <p className="team">At the CfA</p>
-            <p>Nelson Caldwell, Phill Cargile, Vedant Chandra, Andrew Cline, Brian McLeod, Conor Sayres, Abby White, Joe Zajac</p>
+            <p><span className="team">At the CfA:</span> Nelson Caldwell, Phill Cargile, Vedant Chandra, Andrew Cline, Liam Connor, Danielle Frostig, Ben Johnson, Jan Kansky, Kyle MacKenzie, Brian McLeod, Theo O'Neill, Anya Phillips, Conor Sayres, Ashley Villar, Abby White, Joe Zajac</p>
             
-            <p className="team">At Stanford</p>
-            <p>Susan Clark, Risa Wechsler</p>
+            <p><span className="team">At Stanford:</span> Christian Aganze, Jay Baptista, Susan Clark, Tara Dacunha, Ben Dodge, Phil Mansfield, Viraj Manwadkar, Risa Wechsler</p>
+            
+            <p><span className="team">At Yale:</span> William Cerny, Marla Geha, Pieter van Dokkum</p>
           </div>
           
         </div>

@@ -582,6 +582,10 @@ p.team {
   margin-bottom:-15px;
 }
 
+span.team {
+  font: 18px/24px Sarabun-SemiBold, Arial, Verdana, sans-serif;
+}
+
 @media screen and (min-width: 1200px){
 #credits-gallery, #support-gallery {
   width: calc(100% - 100px);
