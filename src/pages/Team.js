@@ -7,15 +7,15 @@ function Team() {
     <div id="wrapper">
       <Title />
         <div className="section">
-          <div className="background" style={{backgroundImage: "url(../img/us_night_med.jpg)"}}></div>
+          <div className="background" style={{backgroundImage: "url(../img/via_team.png)"}}></div>
           <div className="inner-center-bottom" style={{bottom:"2%"}}>
-            <h1>A Collaboration</h1>
-            <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>{'Carnegie Observatories \u25cf Center for Astrophysics \u25cf Stanford \u25cf Yale'}</h4>
+            {/* <h1>A Collaboration</h1>
+            <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>{'Carnegie Observatories \u25cf Center for Astrophysics \u25cf Stanford \u25cf Yale'}</h4> */}
           </div>
         </div>
         
         <div className="section">
-          <div className="background" style={{backgroundImage: "url(../img/parts_med.jpg)"}}></div>
+          <div className="background" style={{backgroundImage: "url(../img/mw_igor_desktop.jpg)"}}></div>
           <div className="background-gradient"></div>
           
           <div className="inner-left-bottom" style={{maxWidth:"580px"}}>
@@ -36,12 +36,20 @@ function Team() {
                   <td>INSTRUMENT PI</td>
                   <td><a href="https://www.cfa.harvard.edu/people/daniel-fabricant">Dan Fabricant<span> / CfA</span></a></td>
                 </tr>
+                <tr>
+                  <td>DEPUTY PROJECT SCIENTIST</td>
+                  <td><a href="https://vedantchandra.com/">Vedant Chandra<span> / CfA</span></a></td>
+                </tr>
+                <tr>
+                  <td>DEPUTY INSTRUMENT PI</td>
+                  <td><a href="https://jack-piotrowski.com/">Jack Piotrowski<span> / Carnegie</span></a></td>
+                </tr>
               </tbody>
             </table>
             
-            <p><span className="team">At Carnegie:</span> Julia Brady, David Cruz, Julian Garcia, Charlie Hull, Jake Nibauer, Jack Piotrowski, Tony Piro, Josh Simon</p>
+            <p><span className="team">At Carnegie:</span> Julia Brady, David Cruz, Julian Garcia, Charlie Hull, Jake Nibauer, Tony Piro, Josh Simon</p>
             
-            <p><span className="team">At the CfA:</span> Dan Baldwin, Carl Barcroft, Nelson Caldwell, Phill Cargile, Dan Catropa, Vedant Chandra, Andrew Cline, Liam Connor, Paul Di Re, Peter Doherty, Danielle Frostig, Ben Johnson, Jan Kansky, Vlad Kradinov, Kyle MacKenzie, Brian McLeod, Theo O'Neill, Anya Phillips, Conor Sayres, Andrew Schalk, Ashley Villar, Abby White, Joe Zajac</p>
+            <p><span className="team">At the CfA:</span> Dan Baldwin, Carl Barcroft, Nelson Caldwell, Phill Cargile, Dan Catropa, Andrew Cline, Liam Connor, Paul Di Re, Peter Doherty, Danielle Frostig, Ben Johnson, Jan Kansky, Vlad Kradinov, Kyle MacKenzie, Catherine Miller, Brian McLeod, Theo O'Neill, Anya Phillips, Conor Sayres, Andrew Schalk, Ashley Villar, Abby White, Joe Zajac</p>
             
             <p><span className="team">At Stanford:</span> Christian Aganze, Jay Baptista, Susan Clark, Tara Dacunha, Ben Dodge, Phil Mansfield, Viraj Manwadkar, Risa Wechsler</p>
             

@@ -10,7 +10,7 @@ function App() {
       <div className="section">
         <div className="background" style={{backgroundImage: "url(../img/diffraction_grating.jpg)"}}></div>
         <div className="inner-center-bottom">
-          <h1>ViaSpec</h1>
+          <h1>Viaspec</h1>
           <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>Delivering 100 m/s radial velocities for millions of stars</h4>
         </div>
       </div>
@@ -22,8 +22,8 @@ function App() {
         <div className="inner-left-bottom">
           <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Overview</h4>
           <h3 style={{paddingBottom:"5px"}}>System Design</h3>
-          <p>ViaSpec has three main systems: (1) the fiber positioner, mounted at the f/5 Cassegrain focus and attached to the primary mirror cell with six struts, (2) a ~25m run of optical fibers from the fiber positioner to the spectrograph, kept short to minimize throughput losses, and (3) the bench spectrograph, mounted on a cart for convenient storage, and parked on the telescope platform.</p>
-          <p>In addition, ViaSpec will have a camera-based metrology system to provide iterative fiber positioning feedback, guiders and wavefront sensors, and a set of fixed fibers that can be sent to additional spectrographs, possibly serving exoplanet or transient research.</p>
+          <p>Viaspec has three main systems: (1) the fiber positioner, mounted at the f/5 Cassegrain focus and attached to the primary mirror cell with six struts, (2) a ~25m run of optical fibers from the fiber positioner to the spectrograph, kept short to minimize throughput losses, and (3) the bench spectrograph, mounted on a cart for convenient storage, and parked on the telescope platform.</p>
+          <p>In addition, Viaspec will have a camera-based metrology system to provide iterative fiber positioning feedback, guiders and wavefront sensors, and a set of fixed fibers that can be sent to additional spectrographs, possibly serving exoplanet or transient research.</p>
         </div>
       </div>
       
@@ -34,7 +34,7 @@ function App() {
         <div className="inner-left-bottom">
           <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4>
           <h3 style={{paddingBottom:"5px"}}>Focal Plane System</h3>
-          <p>ViaSpec will be fed by 600 robotic fibers, positioned in the focal plane by vertically-oriented actuators. This configuration allows nearly simultaneous positioning of all fibers, and features high fault tolerance. Optical fibers will travel on the neutral axis of a controlled-radius cable carrier in the fiber derotator, and between the fiber positioner and the bench spectrograph.</p>
+          <p>Viaspec will be fed by 600 robotic fibers, positioned in the focal plane by vertically-oriented actuators. This configuration allows nearly simultaneous positioning of all fibers, and features high fault tolerance. Optical fibers will travel on the neutral axis of a controlled-radius cable carrier in the fiber derotator, and between the fiber positioner and the bench spectrograph.</p>
         <table className="data">
             <tbody>
               <tr>
@@ -55,7 +55,7 @@ function App() {
         <div className="inner-left-top">
           <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4>
           <h3 style={{paddingBottom:"5px"}}>Bench Spectrograph</h3>
-          <p>ViaSpec will have a 260 mm beam spectrograph to accommodate 600 fibers, which will be located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high efficiency of ~90%. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>
+          <p>Viaspec will have a 260 mm beam spectrograph to accommodate 600 fibers, which will be located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high efficiency of ~90%. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>
         <table className="data">
             <tbody>
               <tr>
