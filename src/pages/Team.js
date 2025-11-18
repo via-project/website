@@ -39,9 +39,9 @@ function Team() {
               </tbody>
             </table>
             
-            <p><span className="team">At Carnegie:</span> Julia Brady, David Cruz, Julian Garcia, Charlie Hull, Jake Nibauer, Jack Piotrowski, Tony Piro, Josh Simon</p>
+            <p><span className="team">At Carnegie:</span> David Cruz, Julian Garcia, Charlie Hull, Jake Nibauer, Jack Piotrowski, Tony Piro, Josh Simon</p>
             
-            <p><span className="team">At the CfA:</span> Dan Baldwin, Carl Barcroft, Nelson Caldwell, Phill Cargile, Dan Catropa, Vedant Chandra, Andrew Cline, Liam Connor, Paul Di Re, Peter Doherty, Danielle Frostig, Ben Johnson, Jan Kansky, Vlad Kradinov, Kyle MacKenzie, Brian McLeod, Theo O'Neill, Anya Phillips, Conor Sayres, Andrew Schalk, Ashley Villar, Abby White, Joe Zajac</p>
+            <p><span className="team">At the CfA:</span> Dan Baldwin, Carl Barcroft, Nelson Caldwell, Phill Cargile, Dan Catropa, Vedant Chandra, Andrew Cline, Liam Connor, Peter Doherty, Danielle Frostig, Ben Johnson, Jan Kansky, Vlad Kradinov, Kyle MacKenzie, Catherine Miller, Sean Moran, Mark Mueller, Brian McLeod, Martin Paegert, Anya Phillips, Andrew Schalk, Ashley Villar, Abby White, Joe Zajac</p>
             
             <p><span className="team">At Stanford:</span> Christian Aganze, Jay Baptista, Susan Clark, Tara Dacunha, Ben Dodge, Phil Mansfield, Viraj Manwadkar, Risa Wechsler</p>
             
