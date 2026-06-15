@@ -4,8 +4,8 @@ export const leadership = [
   {
     role: 'PROJECT PIs',
     people: [
-      { name: 'Ana Bonaca', affil: 'Carnegie', url: 'https://obs.carnegiescience.edu/dr-ana-bonaca-0' },
-      { name: 'Charlie Conroy', affil: 'CfA', url: 'https://scholar.harvard.edu/cconroy/home' },
+      { name: 'Ana Bonaca', affil: 'Carnegie', url: 'https://carnegiescience.edu/bio/dr-ana-bonaca' },
+      { name: 'Charlie Conroy', affil: 'CfA', url: 'https://cconroy20.github.io/' },
     ],
   },
   {
