@@ -5,11 +5,6 @@ import { leadership, members } from '../data/team';
 function Team() {
   return (
     <>
-      <Section bg="../img/via_team.png" inner="center-bottom" innerStyle={{bottom:"2%"}}>
-        {/* <h1>A Collaboration</h1>
-        <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>{'Carnegie Observatories ● Center for Astrophysics ● Stanford ● Yale'}</h4> */}
-      </Section>
-
       <Section bg="../img/mw_igor_desktop.jpg" overlay="gradient" inner="left-bottom" innerStyle={{maxWidth:"580px"}}>
         <h3>The Via Team</h3>
         <p style={{color: "#fff"}}>A small group of engineers, project managers, and scientists with experience in building optical spectrographs, focal plane systems, and control and analysis pipelines are the core builders of Via.</p>

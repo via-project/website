@@ -3,11 +3,6 @@ import Section from '../components/Section';
 function Telescopes() {
   return (
     <>
-      <Section bg="../img/mmt_igor_med.jpg" inner="center-bottom">
-        <h1>Eyes on the whole sky</h1>
-        <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>Twin 6.5-meter, wide-field telescopes in Arizona and Chile</h4>
-      </Section>
-
       <Section bg="../img/mmt_panorama_igor_med.jpg" inner="left-top">
         <h4 style={{textTransform:"uppercase"}}>Arizona</h4>
         <h3>MMT</h3>

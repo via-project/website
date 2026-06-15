@@ -3,11 +3,6 @@ import Section from '../components/Section';
 function Survey() {
   return (
     <>
-      <Section bg="../img/gaia_gas_med.jpg" inner="center-middle">
-        <h1 style={{marginBottom:"50px"}}>The Via survey</h1>
-        <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>{'150 nights per year ● 5 years ● 3 million spectra'}</h4>
-      </Section>
-
       <Section bg="../img/survey_footprint_offset_med.png" overlay="optional" inner="left-top">
         <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Overview</h4>
         <h3 style={{paddingBottom:"5px"}}>Survey Design</h3>

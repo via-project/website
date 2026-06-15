@@ -3,11 +3,6 @@ import Section from '../components/Section';
 function Spectrographs() {
   return (
     <>
-      <Section bg="../img/diffraction_grating.jpg" inner="center-bottom">
-        <h1>Viaspec</h1>
-        <h4 style={{textTransform:"uppercase", paddingTop:"10px"}}>Delivering 100 m/s radial velocities for millions of stars</h4>
-      </Section>
-
       <Section bg="../img/system_design.png" overlay="optional" inner="left-bottom">
         <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Overview</h4>
         <h3 style={{paddingBottom:"5px"}}>System Design</h3>
