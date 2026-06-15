@@ -170,6 +170,35 @@ const Visualizations = () => {
       }}
     >
       <Title />
+
+      <section style={{ marginBottom: "3.5rem" }}>
+        <h1 style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>Project Trailer</h1>
+        <div style={{ width: "75%", margin: "0 auto", aspectRatio: "16 / 9" }}>
+          <iframe
+            style={{ width: "100%", height: "100%", border: 0 }}
+            src="https://www.youtube.com/embed/CWfUNy6iog4?rel=0"
+            title="The Via Project trailer"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section style={{ marginBottom: "3.5rem" }}>
+        <h1 style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>
+          Dark Matter and Stellar Streams
+        </h1>
+        <div style={{ width: "75%", margin: "0 auto", aspectRatio: "16 / 9" }}>
+          <iframe
+            style={{ width: "100%", height: "100%", border: 0 }}
+            src="https://www.youtube.com/embed/KGSWs0MtnUc?rel=0"
+            title="Dark Matter and Stellar Streams"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+
       <h1 style={{ fontSize: "1.8rem", marginBottom: "0.3rem" }}>
         Stream Impact Explorer
       </h1>
