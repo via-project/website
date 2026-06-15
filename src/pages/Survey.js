@@ -1,11 +1,8 @@
 import '../App.css';
-import Title from '../Title';
-import Footer from '../Footer';
 
 function App() {
   return (
-    <div id="wrapper">
-      <Title />
+    <>
       <div className="section">
         <div className="background" style={{backgroundImage: "url(../img/gaia_gas_med.jpg)"}}></div>
         <div className="inner-center-middle">
@@ -42,8 +39,7 @@ function App() {
         
       </div>
       
-      <Footer />
-    </div>
+    </>
   );
 }
 

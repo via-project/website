@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import Spectrographs from "./pages/Spectrographs";
@@ -13,16 +14,20 @@ import Visualizations from "./pages/Visualizations";
 
 export default function App() {
   return (
-    <HashRouter basemname={`/${process.env.PUBLIC_URL}`}>
+    <HashRouter>
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="mission" element={<Mission />} />
-        <Route path="spectrographs" element={<Spectrographs />} />
-        <Route path="telescopes" element={<Telescopes />} />
-        <Route path="survey" element={<Survey />} />
-        <Route path="team" element={<Team />} />
-        <Route path="credits" element={<Credits />} />
-        <Route path="support" element={<Support />} />
+        {/* Section-based pages share the Title/Footer chrome via Layout */}
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="mission" element={<Mission />} />
+          <Route path="spectrographs" element={<Spectrographs />} />
+          <Route path="telescopes" element={<Telescopes />} />
+          <Route path="survey" element={<Survey />} />
+          <Route path="team" element={<Team />} />
+          <Route path="credits" element={<Credits />} />
+          <Route path="support" element={<Support />} />
+        </Route>
+        {/* Visualizations uses its own full-bleed scrolling layout */}
         <Route path="visualizations" element={<Visualizations />} />
       </Routes>
     </HashRouter>
@@ -30,4 +35,4 @@ export default function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />); 
+root.render(<App />);

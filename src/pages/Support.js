@@ -1,6 +1,4 @@
 import '../App.css';
-import Title from '../Title';
-import Footer from '../Footer';
 import SupportEntry from '../components/SupportEntry'
 
 import React, { useEffect, useState } from 'react';
@@ -28,8 +26,7 @@ function Support() {
   }, []);
   
   return (
-    <div id="wrapper">
-      <Title />
+    <>
       
       <div id="heading">
         <h2>Supported by</h2>
@@ -41,8 +38,7 @@ function Support() {
         ))}
       </div>
       
-      <Footer />
-    </div>
+    </>
   );
 }
 

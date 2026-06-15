@@ -1,11 +1,8 @@
 import '../App.css';
-import Title from '../Title';
-import Footer from '../Footer';
 
 function Team() {
   return (
-    <div id="wrapper">
-      <Title />
+    <>
         <div className="section">
           <div className="background" style={{backgroundImage: "url(../img/via_team.png)"}}></div>
           <div className="inner-center-bottom" style={{bottom:"2%"}}>
@@ -59,8 +56,7 @@ function Team() {
           
         </div>
         
-      <Footer />
-    </div>
+    </>
   );
 }
 

@@ -1,6 +1,4 @@
 import '../App.css';
-import Title from '../Title';
-import Footer from '../Footer';
 import MediaEntry from '../components/MediaEntry'
 
 import React, { useEffect, useState } from 'react';
@@ -28,8 +26,7 @@ function Credits() {
   }, []);
   
   return (
-    <div id="wrapper">
-      <Title />
+    <>
       
       <div id="heading">
         <h2>Media credits</h2>
@@ -41,8 +38,7 @@ function Credits() {
         ))}
       </div>
       
-      <Footer />
-    </div>
+    </>
   );
 }
 

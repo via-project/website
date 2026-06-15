@@ -1,11 +1,8 @@
 import '../App.css';
-import Title from '../Title';
-import Footer from '../Footer';
 
 function App() {
   return (
-    <div id="wrapper">
-      <Title />
+    <>
       
       <div className="section">
         <div className="background" style={{backgroundImage: "url(../img/diffraction_grating.jpg)"}}></div>
@@ -75,8 +72,7 @@ function App() {
         </div>
       </div>
       
-      <Footer />
-    </div>
+    </>
   );
 }
 
