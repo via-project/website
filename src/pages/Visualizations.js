@@ -1,6 +1,7 @@
 // src/pages/Visualizations.js
 import React, { useState, useEffect } from "react";
 import Plot from "react-plotly.js";
+import Title from "../Title";
 
 const logmGrid = [7.0, 7.2, 7.5, 7.8, 8.0];
 const rmultGrid = [0.5, 1, 2];
@@ -160,7 +161,7 @@ const Visualizations = () => {
   return (
     <div
       style={{
-        padding: "0.5rem 1.5rem",
+        padding: "110px 1.5rem 2rem",
         backgroundColor: "#000",
         color: "#fff",
         minHeight: "100vh",
@@ -168,6 +169,7 @@ const Visualizations = () => {
         boxSizing: "border-box",
       }}
     >
+      <Title />
       <h1 style={{ fontSize: "1.8rem", marginBottom: "0.3rem" }}>
         Stream Impact Explorer
       </h1>

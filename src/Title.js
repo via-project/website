@@ -1,7 +1,22 @@
 // src/Title.js
 
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './App.css';
+import { NAV } from './nav';
+
+// One nav list, reused by the desktop bar and the mobile menu.
+function NavList() {
+  return (
+    <ul className="nav-links">
+      {NAV.map(({ to, label }) => (
+        <li className="nav-item" key={to}>
+          <NavLink to={to}>{label}</NavLink>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 function Title() {
   
@@ -31,13 +46,7 @@ function Title() {
         </a>
         
         <div id="navigation">
-          <ul className="nav-links">
-            <li className="nav-item"><a href="/#/mission/">Mission</a></li>
-            <li className="nav-item"><a href="/#/spectrographs/">Spectrographs</a></li>
-            <li className="nav-item"><a href="/#/telescopes/">Telescopes</a></li>
-            <li className="nav-item"><a href="/#/survey/">Survey</a></li>
-            <li className="nav-item"><a href="/#/team/">Team</a></li>
-          </ul>
+          <NavList />
         </div>
         
       </div>
@@ -45,13 +54,7 @@ function Title() {
       <div id="menu" style={{width: isOpen ? "300px" : "0px"}}>
         <div id="menu-background"></div>
         <div id="menu-navigation" style={{opacity: isOpen ? "1" : "0", visibility: isOpen ? "inherit" : "hidden"}}>
-          <ul className="nav-links">
-            <li className="nav-item"><a href="/#/mission/">Mission</a></li>
-            <li className="nav-item"><a href="/#/spectrographs/">Spectrographs</a></li>
-            <li className="nav-item"><a href="/#/telescopes/">Telescopes</a></li>
-            <li className="nav-item"><a href="/#/survey/">Survey</a></li>
-            <li className="nav-item"><a href="/#/team/">Team</a></li>
-          </ul>
+          <NavList />
         </div>
       </div>
       
