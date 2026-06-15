@@ -6,14 +6,14 @@ function Instrument() {
       <Section bg="../img/system_design.png" overlay="optional" inner="left-bottom">
         <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Overview</h4>
         <h3 style={{paddingBottom:"5px"}}>System Design</h3>
-        <p>Viaspec has four main systems: (1) the fiber positioner, mounted at the f/5 Cassegrain focus and attached to the primary mirror cell with six struts, (2) a ~25m run of optical fibers from the fiber positioner to the spectrograph, kept short to minimize throughput losses, and (3) the high-resolution Viaspec bench spectrograph, mounted on a cart for convenient storage, and parked on the telescope platform.</p>
-        <p>In addition, Viaspec will have a camera-based metrology system to provide iterative fiber positioning feedback, guiders and wavefront sensors, and a set of fixed fibers that can be sent to additional spectrographs, possibly serving exoplanet or transient research.</p>
+        <p>Viaspec has four main systems: (1) the fiber positioner, mounted at the f/5 Cassegrain focus and attached to the primary mirror cell with six struts, (2) a ~25m run of optical fibers from the fiber positioner to the spectrograph, kept short to minimize throughput losses, (3) the high-resolution Viaspec bench spectrograph, and (4) the low-resolution Boombox spectrograph.</p>
+        <p>In addition, Viaspec will have a camera-based metrology system to provide iterative fiber positioning feedback, guiders and wavefront sensors.</p>
       </Section>
 
       <Section bg="../img/viaspec_fps_med.png" overlay="optional" inner="left-bottom">
-        <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4>
+        {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Focal Plane System</h3>
-        <p>Viaspec will be fed by 600 robotic fibers, positioned in the focal plane by vertically-oriented actuators. This configuration allows nearly simultaneous positioning of all fibers, and features high fault tolerance. Optical fibers will travel on the neutral axis of a controlled-radius cable carrier in the fiber derotator, and between the fiber positioner and the bench spectrograph.</p>
+        <p>Viaspec will be fed by 576 robotic fibers, positioned in the focal plane by vertically-oriented actuators. The spectrograph also receives light from 60 fixed fiducial fibers spread across the focal plane (used to calibrate the metrology system) which serve as sky fibers. Optical fibers travel on the neutral axis of a controlled-radius cable carrier in the fiber derotator, and onto a fiber chain towards the bench spectrograph.</p>
         <table className="data">
           <tbody>
             <tr>
@@ -26,23 +26,45 @@ function Instrument() {
         </table>
       </Section>
 
-      <Section plot="../img/viaspec_optics_plot.png" inner="left-top">
-        <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4>
-        <h3 style={{paddingBottom:"5px"}}>Bench Spectrograph</h3>
-        <p>Viaspec will have a 260 mm beam spectrograph to accommodate 600 fibers, which will be located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high efficiency of ~90%. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>
+      <Section plot="../img/viaspec_bench_layout.png" plotBg="#000" inner="left-top">
+        {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
+        <h3 style={{paddingBottom:"5px"}}>Viaspec Bench Spectrograph</h3>
+        <p>Viaspec is a bench spectrograph that receives 536 fibers, located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high grating efficiency. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>
         <table className="data">
           <tbody>
             <tr>
               <td>Resolution</td><td>15,000</td>
             </tr>
             <tr>
-              <td>Binary grating</td><td>2,000 lpm</td>
+              <td>Instrument Throughput</td><td>35%</td>
             </tr>
             <tr>
-              <td>Spectral coverage</td><td>{'510 nm — 595 nm'}</td>
+              <td>Spectral coverage</td><td>{'505 — 595 nm'}</td>
             </tr>
             <tr>
-              <td>CCD format</td><td>9K x 9K<span>{' / 10μm pixels'}</span></td>
+              <td>CCD format</td><td>9000×9000<span>{' / 10μm pixels'}</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </Section>
+
+        <Section plot="../img/boombox_cad.png" inner="left-top">
+        {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
+        <h3 style={{paddingBottom:"5px"}}>Boombox Spectrograph</h3>
+        <p>Boombox is a companion instrument to Viaspec for low-resolution spectroscopy, accepting 36 fibers from the focal plane. The 36 Boombox fibers are arranged throughout the Via focal plane in a spoke design, optimized for targeting flexibility, allowing modest field-center and instrument-rotation offsets. The Boombox spectrograph consists of a two-channel optical system: a blue channel (3600–5900 Å) and a red channel (5700–10100 Å).</p>
+        <table className="data">
+          <tbody>
+            <tr>
+              <td>Resolution</td><td>1,000</td>
+            </tr>
+            <tr>
+              <td>Instrument Throughput</td><td>41%</td>
+            </tr>
+            <tr>
+              <td>Spectral coverage</td><td>{'360 — 1010 nm'}</td>
+            </tr>
+            <tr>
+              <td>CCD format</td><td>2048×256 (×2)<span>{' / 15μm pixels'}</span></td>
             </tr>
           </tbody>
         </table>

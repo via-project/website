@@ -201,12 +201,18 @@ a:not(.hover-none):hover {
   text-decoration: none;
 }
 
+:root {
+  /* Single source of truth for the fixed nav height, so content can offset
+     from it consistently (see .content-below-nav). */
+  --header-height: 100px;
+}
+
 #header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: var(--header-height);
   z-index: 100;
 }
 
@@ -500,6 +506,31 @@ a:not(.hover-none):hover {
   left: 100px;
   text-align: left;
   max-width: 520px;
+}
+
+/* Long-form content (e.g. the Team roster) that flows below the fixed nav at
+   a consistent offset, over a full-height background. Unlike the absolute
+   .inner-* blocks, the section grows with its content instead of overflowing
+   a fixed-height panel, so the text never rides up under the navbar. */
+.section-flow {
+  height: auto;
+  min-height: 100%;
+  position: relative;
+}
+.section-flow > .background,
+.section-flow > .background-gradient {
+  inset: 0;
+  height: auto;
+}
+.content-below-nav {
+  position: relative;
+  z-index: 1;
+  margin-left: clamp(20px, 7vw, 100px);
+  margin-right: 20px;
+  max-width: 580px;
+  padding-top: calc(var(--header-height) + 40px);
+  padding-bottom: 60px;
+  text-align: left;
 }
 
 .video-container {

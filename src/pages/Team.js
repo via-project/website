@@ -1,11 +1,13 @@
 import React from 'react';
-import Section from '../components/Section';
 import { leadership, members } from '../data/team';
 
 function Team() {
   return (
-    <>
-      <Section bg="../img/mw_igor_desktop.jpg" overlay="gradient" inner="left-bottom" innerStyle={{maxWidth:"580px"}}>
+    <div className="section section-flow">
+      <div className="background" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
+      <div className="background-gradient"></div>
+
+      <div className="content-below-nav">
         <h3>The Via Team</h3>
         <p style={{color: "#fff"}}>A small group of engineers, project managers, and scientists with experience in building optical spectrographs, focal plane systems, and control and analysis pipelines are the core builders of Via.</p>
 
@@ -27,13 +29,11 @@ function Team() {
           </tbody>
         </table>
 
-
         {members.map(({ institution, names }) => (
           <p key={institution}><span className="team">{institution}</span> {names}</p>
         ))}
-      </Section>
-
-    </>
+      </div>
+    </div>
   );
 }
 
