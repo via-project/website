@@ -48,7 +48,7 @@
     "description": "Gas density field in an outflow simulation driven by a few massive star clusters near the center of the disk. Simulation performed with the Cholla astrophysics code at a fixed resolution."
   },
   {
-    "page": "spectrographs",
+    "page": "instrument",
     "name": "diffraction_grating_thumb.jpg",
     "source": "https://www.sciencephoto.com/media/111290/view",
     "author": "Science Photo Library",
@@ -56,7 +56,7 @@
     "description": "A beam of white light passing through a diffraction grating. Diffracted light propagates along discrete diffraction orders, with the zeroth order exhibiting no dispersion, while the higher orders are dispersed into a rainbow of colors."
   },
   {
-    "page": "spectrographs",
+    "page": "instrument",
     "name": "system_design_thumb.png",
     "source": "img/system_design.png",
     "author": "Via Team",
@@ -64,15 +64,7 @@
     "description": "CAD model of the entire ViaSpec system, with the fiber positioner mounted on the back of the 6.5m MMT mirror and the bench spectrograph on top of a cart parked on the dome floor."
   },
   {
-    "page": "spectrographs",
-    "name": "viaspec_fps_thumb.png",
-    "source": "img/viaspec_fps_med.png",
-    "author": "Via Team",
-    "web": "https://via-project.org",
-    "description": "CAD model of the ViaSpec focal plane system, with the mounting flange to fit the MMT telescope. A single robotic actuator is shown in the middle of the focal plane."
-  },
-  {
-    "page": "spectrographs",
+    "page": "instrument",
     "name": "viaspec_optics_thumb.png",
     "source": "img/viaspec_optics_med.png",
     "author": "Via Team",
@@ -110,14 +102,6 @@
     "author": "Via Team",
     "web": "https://via-project.org",
     "description": "All sky map of stars in the Milky Way from the Gaia mission, overlaid by the map of neutral hydrogen gas, detected by the HI4PI project and tuned to emphasize edges of the gas emission."
-  },
-  {
-    "page": "survey",
-    "name": "survey_footprint_offset_thumb.png",
-    "source": "img/survey_footprint_offset_med.png",
-    "author": "Via Team",
-    "web": "https://via-project.org",
-    "description": "Footprint of the Via nominal survey in galactic sky coordinates. Red fields mark currently known dwarf galaxies, orange fields are placed on known stellar streams outside of 10 kpc, and blue marks blank fields for contiguous mapping of the halo gas. Fields above the sky equator (dark-red, dashed line) will be covered by MMT, and those below by Magellan."
   },
   {
     "page": "team",
