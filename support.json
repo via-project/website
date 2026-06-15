@@ -1,0 +1,32 @@
+[
+  {
+    "level": "founders",
+    "logo": "logo_carnegie.svg",
+    "name": "Carnegie Observatories",
+    "web": "https://obs.carnegiescience.edu/"
+  },
+  {
+    "level": "founders",
+    "logo": "logo_harvard.svg",
+    "name": "Harvard College Observatory",
+    "web": "https://hco.cfa.harvard.edu/"
+  },
+  {
+    "level": "founders",
+    "logo": "logo_smithsonian.svg",
+    "name": "Smithsonian Astrophysical Observatory",
+    "web": "https://pweb.cfa.harvard.edu/about/about-smithsonian-astrophysical-observatory"
+  },
+  {
+    "level": "partners",
+    "logo": "logo_stanford.svg",
+    "name": "Stanford University",
+    "web": "https://kipac.stanford.edu"
+  },
+  {
+    "level": "support",
+    "logo": "logo_kavli.svg",
+    "name": "Kavli Foundation",
+    "web": "https://www.kavlifoundation.org/"
+  }
+]
