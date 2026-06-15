@@ -26,3 +26,18 @@ export const surveys = [
       "The Vera Rubin Observatory's LSST will discover millions of astrophysical transients over its 10-year survey. Whenever Via is on-sky — at MMT or Magellan, nearly four months of the year — instantaneous follow-up is enabled. Boombox fibers are devoted to transients and their host galaxies in every Via pointing, driving targeted follow-up of the most interesting LSST transients, including gravitational-wave counterparts, young supernovae and precursor events, and unexpected phenomena flagged by machine learning.",
   },
 ];
+
+// Smaller ancillary science cases that share the survey fibers.
+export const ancillarySurveys = [
+  'Quasars and the Lyα forest',
+  'Host galaxies of fast radio bursts',
+  'Gravitational lenses',
+  'Integrated kinematics of low-mass galaxies',
+  'White dwarfs',
+  'Metal-poor stars',
+  'Distant red giants',
+  'Gaia astrometric binaries',
+  'Convection, pulsation, and mass loss in evolved stars',
+  'Bright exoplanet candidate host stars',
+  'Comets',
+];
