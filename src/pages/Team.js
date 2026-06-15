@@ -1,5 +1,7 @@
+import React from 'react';
 import '../App.css';
 import Section from '../components/Section';
+import { leadership, members } from '../data/team';
 
 function Team() {
   return (
@@ -15,37 +17,26 @@ function Team() {
 
         <table className="data" style={{width:"85%", marginLeft:"10px"}}>
           <tbody>
-            <tr>
-              <td>PROJECT PIs</td>
-              <td>
-                <a href="https://obs.carnegiescience.edu/dr-ana-bonaca-0">Ana Bonaca<span> / Carnegie</span></a>
-                <span style={{paddingTop:"10px", display:"block"}}></span>
-                <a href="https://scholar.harvard.edu/cconroy/home">Charlie Conroy<span> / CfA</span></a>
-              </td>
-            </tr>
-            <tr>
-              <td>INSTRUMENT PI</td>
-              <td><a href="https://www.cfa.harvard.edu/people/daniel-fabricant">Dan Fabricant<span> / CfA</span></a></td>
-            </tr>
-            <tr>
-              <td>DEPUTY PROJECT SCIENTIST</td>
-              <td><a href="https://vedantchandra.com/">Vedant Chandra<span> / CfA</span></a></td>
-            </tr>
-            <tr>
-              <td>DEPUTY INSTRUMENT PI</td>
-              <td><a href="https://jack-piotrowski.com/">Jack Piotrowski<span> / Carnegie</span></a></td>
-            </tr>
+            {leadership.map(({ role, people }) => (
+              <tr key={role}>
+                <td>{role}</td>
+                <td>
+                  {people.map((p, i) => (
+                    <React.Fragment key={p.url}>
+                      {i > 0 && <span style={{paddingTop:"10px", display:"block"}}></span>}
+                      <a href={p.url}>{p.name}<span> / {p.affil}</span></a>
+                    </React.Fragment>
+                  ))}
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
 
 
-        <p><span className="team">At Carnegie:</span> David Cruz, Julian Garcia, Charlie Hull, Jake Nibauer, Jack Piotrowski, Tony Piro, Josh Simon</p>
-
-        <p><span className="team">At the CfA:</span> Dan Baldwin, Carl Barcroft, Nelson Caldwell, Phill Cargile, Dan Catropa, Vedant Chandra, Andrew Cline, Liam Connor, Peter Doherty, Danielle Frostig, Ben Johnson, Jan Kansky, Vlad Kradinov, Kyle MacKenzie, Catherine Miller, Sean Moran, Mark Mueller, Brian McLeod, Martin Paegert, Anya Phillips, Andrew Schalk, Ashley Villar, Abby White, Joe Zajac</p>
-
-        <p><span className="team">At Stanford:</span> Christian Aganze, Jay Baptista, Susan Clark, Tara Dacunha, Ben Dodge, Phil Mansfield, Viraj Manwadkar, Risa Wechsler</p>
-
-        <p><span className="team">At Yale:</span> William Cerny, Marla Geha, Pieter van Dokkum</p>
+        {members.map(({ institution, names }) => (
+          <p key={institution}><span className="team">{institution}</span> {names}</p>
+        ))}
       </Section>
 
     </>
