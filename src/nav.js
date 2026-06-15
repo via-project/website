@@ -2,7 +2,7 @@
 // Rendered by Title.js (desktop bar + mobile menu).
 export const NAV = [
   { to: "/mission", label: "Mission" },
-  { to: "/spectrographs", label: "Spectrographs" },
+  { to: "/instrument", label: "Instrument" },
   { to: "/telescopes", label: "Telescopes" },
   { to: "/survey", label: "Survey" },
   { to: "/team", label: "Team" },

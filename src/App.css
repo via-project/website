@@ -415,6 +415,24 @@ a:not(.hover-none):hover {
   zorder: 1;
 }
 
+/* Section with a programmatic CSS-gradient background and a plot/diagram
+   image floated on the right (instead of a full-bleed baked-in image). */
+.section-plot-bg {
+  background: radial-gradient(ellipse at 70% 45%, #1c2331 0%, #0b0e14 75%);
+}
+.section-plot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 58%;
+  padding: 5% 4% 5% 0;
+  box-sizing: border-box;
+  object-fit: contain;
+  object-position: center right;
+  pointer-events: none;
+}
+
 
 .section {
   height: 100%;

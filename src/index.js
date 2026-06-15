@@ -5,7 +5,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
-import Spectrographs from "./pages/Spectrographs";
+import Instrument from "./pages/Instrument";
 import Telescopes from "./pages/Telescopes";
 import Survey from "./pages/Survey";
 import Team from "./pages/Team";
@@ -40,7 +40,7 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="mission" element={<Mission />} />
-          <Route path="spectrographs" element={<Spectrographs />} />
+          <Route path="instrument" element={<Instrument />} />
           <Route path="telescopes" element={<Telescopes />} />
           <Route path="survey" element={<Survey />} />
           <Route path="team" element={<Team />} />

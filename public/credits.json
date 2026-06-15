@@ -48,7 +48,7 @@
     "description": "Gas density field in an outflow simulation driven by a few massive star clusters near the center of the disk. Simulation performed with the Cholla astrophysics code at a fixed resolution."
   },
   {
-    "page": "spectrographs",
+    "page": "instrument",
     "name": "diffraction_grating_thumb.jpg",
     "source": "https://www.sciencephoto.com/media/111290/view",
     "author": "Science Photo Library",
@@ -56,7 +56,7 @@
     "description": "A beam of white light passing through a diffraction grating. Diffracted light propagates along discrete diffraction orders, with the zeroth order exhibiting no dispersion, while the higher orders are dispersed into a rainbow of colors."
   },
   {
-    "page": "spectrographs",
+    "page": "instrument",
     "name": "system_design_thumb.png",
     "source": "img/system_design.png",
     "author": "Via Team",
@@ -64,7 +64,7 @@
     "description": "CAD model of the entire ViaSpec system, with the fiber positioner mounted on the back of the 6.5m MMT mirror and the bench spectrograph on top of a cart parked on the dome floor."
   },
   {
-    "page": "spectrographs",
+    "page": "instrument",
     "name": "viaspec_optics_thumb.png",
     "source": "img/viaspec_optics_med.png",
     "author": "Via Team",
