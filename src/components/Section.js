@@ -1,5 +1,3 @@
-import '../App.css';
-
 // Full-viewport background section shared by the content pages.
 //   bg         image URL used for the background
 //   overlay    optional "gradient" | "optional" overlay div

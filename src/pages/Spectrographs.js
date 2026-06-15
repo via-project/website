@@ -1,4 +1,3 @@
-import '../App.css';
 import Section from '../components/Section';
 
 function Spectrographs() {

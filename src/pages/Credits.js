@@ -1,4 +1,3 @@
-import '../App.css';
 import MediaEntry from '../components/MediaEntry';
 import React, { useEffect, useState } from 'react';
 

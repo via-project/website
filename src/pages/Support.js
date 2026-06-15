@@ -1,4 +1,3 @@
-import '../App.css';
 import SupportEntry from '../components/SupportEntry';
 import React, { useEffect, useState } from 'react';
 

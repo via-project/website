@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import './App.css';
 import { NAV } from './nav';
 
 // One nav list, reused by the desktop bar and the mobile menu.
@@ -59,7 +58,7 @@ function Title() {
       </div>
       
       
-      <button id="hamburger" role="button" onClick={handleClick}>
+      <button id="hamburger" onClick={handleClick}>
         <div id="bar1" className="bar" style={{transform: isOpen ? "translate(0px, 6px) rotate(45deg)" : "translate(0px)"}}></div>
         <div id="bar2" className="bar" style={{width: isOpen ? "0%" : "100%", transform: isOpen ? "translate(12px)" : "translate(0px)"}}></div>
         <div id="bar3" className="bar" style={{transform: isOpen ? "translate(0px, -6px) rotate(-45deg)" : "translate(0px)"}}></div>
