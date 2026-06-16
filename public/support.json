@@ -1,12 +1,6 @@
 [
   {
     "level": "founders",
-    "logo": "logo_carnegie.svg",
-    "name": "Carnegie Observatories",
-    "web": "https://obs.carnegiescience.edu/"
-  },
-  {
-    "level": "founders",
     "logo": "logo_harvard.svg",
     "name": "Harvard College Observatory",
     "web": "https://hco.cfa.harvard.edu/"
@@ -18,15 +12,45 @@
     "web": "https://pweb.cfa.harvard.edu/about/about-smithsonian-astrophysical-observatory"
   },
   {
+    "level": "founders",
+    "logo": "logo_carnegie.svg",
+    "name": "Carnegie Observatories",
+    "web": "https://obs.carnegiescience.edu/"
+  },
+  {
     "level": "partners",
     "logo": "logo_stanford.svg",
     "name": "Stanford University",
     "web": "https://kipac.stanford.edu"
   },
   {
+    "level": "partners",
+    "logo": "yale_logo.png",
+    "name": "Yale University",
+    "web": "https://astronomy.yale.edu/"
+  },
+  {
     "level": "support",
     "logo": "logo_kavli.svg",
     "name": "Kavli Foundation",
     "web": "https://www.kavlifoundation.org/"
+  },
+  {
+    "level": "support",
+    "logo": "templeton.png",
+    "name": "John Templeton Foundation",
+    "web": "https://www.templeton.org/"
+  },
+  {
+    "level": "support",
+    "logo": "moore.png",
+    "name": "Gordon and Betty Moore Foundation",
+    "web": "https://www.moore.org/"
+  },
+  {
+    "level": "support",
+    "logo": "monell.png",
+    "name": "The Ambrose Monell Foundation",
+    "web": "https://www.monellfoundation.org/"
   }
 ]

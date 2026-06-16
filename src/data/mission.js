@@ -8,8 +8,8 @@ export const missionSections = [
     kicker: 'Overview',
     title: 'The Via Project',
     paragraphs: [
-      'The Via Project is using the Milky Way galaxy as a laboratory to answer fundamental questions about the nature of the universe. Via will conduct an all-sky survey of stars using the 6.5-meter MMT (Arizona) and Magellan (Chile) telescopes. The survey will utilize the ViaSpec instruments, which will be built and deployed on each of the telescopes.',
-      'The project is a collaboration between Carnegie Observatories and the Center for Astrophysics | Harvard & Smithsonian. Our team includes experts in conducting large-scale surveys and building astronomical instrumentation. We expect to begin the survey in early 2027 to immediately build on the enabling data released by Gaia DR4 and LSST.',
+      'The Via Project is developing new spectroscopic instruments and surveys to answer fundamental questions about the Universe. We are developing twin fiber-fed multi-object spectroscopic instruments for the 6.5-meter MMT (Arizona) and Magellan (Chile) telescopes. Each instrument has 576 robotically positioned fibers over a one degree field of view, feeding two spectrographs: Viaspec (R = 15,000; 505-595 nm; 540 fibers) and Boombox (R = 1,000$; 360-1010 nm; 36 fibers).',
+      'The Via Project is a collaboration between the Center for Astrophysics | Harvard & Smithsonian, Carnegie Observatories, Stanford University, and Yale University. We expect to begin the survey in early 2027 to immediately build on the enabling data released by Gaia DR4 and LSST.',
     ],
   },
   {

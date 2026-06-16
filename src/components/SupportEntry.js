@@ -5,7 +5,7 @@ function SupportEntry(props) {
   const { logo, name, web } = props
   return (
     <div className="support">
-      <a href={`${web}`}><img src={`img/${logo}`} width="300" height="300" alt={name} /></a>
+      <a href={`${web}`}><img src={`img/${logo}`} alt={name} /></a>
       <br />
       <a className="author" href={`${web}`}>{name}</a>
     </div>

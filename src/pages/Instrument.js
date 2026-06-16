@@ -6,7 +6,7 @@ function Instrument() {
       <Section bg="../img/system_design.png" overlay="optional" inner="left-bottom">
         <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Overview</h4>
         <h3 style={{paddingBottom:"5px"}}>System Design</h3>
-        <p>Viaspec has four main systems: (1) the fiber positioner, mounted at the f/5 Cassegrain focus and attached to the primary mirror cell with six struts, (2) a ~25m run of optical fibers from the fiber positioner to the spectrograph, kept short to minimize throughput losses, (3) the high-resolution Viaspec bench spectrograph, and (4) the low-resolution Boombox spectrograph.</p>
+        <p>Via is developing twin fiber-fed multi-object spectroscopic instruments for the 6.5-meter MMT (Arizona) and Magellan (Chile) telescopes. Each Via instrument has four main systems: (1) the fiber positioner, mounted at the f/5 Cassegrain focus and attached to the primary mirror cell, (2) a ~20m run of optical fibers from the fiber positioner to the spectrograph, (3) a high-resolution Viaspec bench spectrograph, and (4) a low-resolution Boombox spectrograph.</p>
         <p>In addition, Viaspec will have a camera-based metrology system to provide iterative fiber positioning feedback, guiders and wavefront sensors.</p>
       </Section>
 
