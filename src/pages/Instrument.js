@@ -13,20 +13,31 @@ function Instrument() {
       <Section bg="../img/viaspec_fps_med.png" overlay="optional" inner="left-bottom">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Focal Plane System</h3>
-        <p>Viaspec will be fed by 576 robotic fibers, positioned in the focal plane by vertically-oriented actuators. The spectrograph also receives light from 60 fixed fiducial fibers spread across the focal plane (used to calibrate the metrology system) which serve as sky fibers. Optical fibers travel on the neutral axis of a controlled-radius cable carrier in the fiber derotator, and onto a fiber chain towards the bench spectrograph.</p>
+        <p>Viaspec will be fed by 576 robotic fibers, positioned in the focal plane by vertically-oriented actuators. The spectrograph also receives light from 60 fixed fiducial fibers spread across the focal plane which serve as sky fibers, and are used to calibrate the metrology system. 
+          A continuous calibration system feeds modulated arc light to another 60 fibers interspersed in the spectrograph slit, providing stable simultaneous wavelength calibration with every exposure. 
+           Optical fibers travel on the neutral axis of a controlled-radius cable carrier in the fiber derotator, and onto a fiber chain towards the bench spectrograph.</p>
         <table className="data">
           <tbody>
             <tr>
-              <td>Fiber size</td><td>1.15"<span> / 0.2mm</span></td>
+              <td>Field Diameter</td><td>1 deg</td>
             </tr>
             <tr>
-              <td>Patrol region</td><td>155"<span> / 25.9mm</span></td>
+              <td>Robotic Positioners</td><td>576</td>
+            </tr>
+            <tr>
+              <td>Fixed Fiducials</td><td>60</td>
+            </tr>
+            <tr>
+              <td>Fiber Size</td><td>1.15"<span> / 200μm</span></td>
+            </tr>
+            <tr>
+              <td>Patrol Region</td><td>155"<span> / 25.9mm</span></td>
             </tr>
           </tbody>
         </table>
       </Section>
 
-      <Section plot="../img/viaspec_bench_layout.png" plotBg="#000" inner="left-top">
+      <Section plot="../img/viaspec_rays.png" plotBg="#000" plotWidth="75%">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Viaspec Bench Spectrograph</h3>
         <p>Viaspec is a bench spectrograph that receives 536 fibers, located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high grating efficiency. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>
@@ -48,7 +59,7 @@ function Instrument() {
         </table>
       </Section>
 
-        <Section plot="../img/boombox_cad.png" inner="left-top">
+        <Section plot="../img/boombox_cad.png">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Boombox Spectrograph</h3>
         <p>Boombox is a companion instrument to Viaspec for low-resolution spectroscopy, accepting 36 fibers from the focal plane. The 36 Boombox fibers are arranged throughout the Via focal plane in a spoke design, optimized for targeting flexibility, allowing modest field-center and instrument-rotation offsets. The Boombox spectrograph consists of a two-channel optical system: a blue channel (3600–5900 Å) and a red channel (5700–10100 Å).</p>

@@ -2,7 +2,7 @@
 // Colors match the footprint figure's legend.
 export const surveys = [
   {
-    title: 'Stream Perturbation',
+    title: 'Stream Perturber',
     color: '#5aa9e6',
     description:
       'The Stream Perturbation Survey targets cold stellar streams in the Milky Way to measure the abundance, mass, and size of dark-matter subhalos below the threshold of galaxy formation, through the unique velocity signatures their impacts leave on streams. Via will have the velocity precision and sensitivity to detect ~10⁶ M⊙ subhalos — reaching the regime of completely dark subhalos — across the many streams needed to overcome the stochasticity of impacts and robustly measure the low-mass subhalo population. Stream targets follow an initial selection strategy that will be refined with Rubin/LSST observations.',

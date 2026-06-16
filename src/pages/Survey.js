@@ -4,7 +4,7 @@ import { surveys, ancillarySurveys } from '../data/surveys';
 function Survey() {
   return (
     <>
-      <Section plot="../img/footprint_dark.png" plotBg="#000" plotWidth="60%" plotRight="6%" inner="left-top" innerStyle={{ top: "50%", transform: "translateY(-50%)" }} sectionStyle={{ height: "80vh" }}>
+      <Section plot="../img/footprint_dark.png" plotBg="#000">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Overview</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Survey Design</h3>
         <p style={{color: "#fff"}}>The Via Survey aims to observe at least 500 nights, combining time at the 6.5m MMT and Magellan/Clay telescopes over five years. The primary Via Survey will target stellar streams (blue), dwarf galaxy candidates (purple), cold gas sightlines (yellow), and transient events (red).
