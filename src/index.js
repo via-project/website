@@ -3,6 +3,7 @@ import { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout";
+import { RouteTracker } from "./analytics";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import Instrument from "./pages/Instrument";
@@ -36,6 +37,7 @@ const vizFallback = (
 export default function App() {
   return (
     <HashRouter>
+      <RouteTracker />
       <Routes>
         {/* Section-based pages share the Title/Footer chrome via Layout */}
         <Route element={<Layout />}>

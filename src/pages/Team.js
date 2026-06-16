@@ -9,7 +9,7 @@ function Team() {
 
       <div className="content-below-nav">
         <h3>The Via Team</h3>
-        <p style={{color: "#fff"}}>A small group of engineers, project managers, and scientists with experience in building optical spectrographs, focal plane systems, and control and analysis pipelines are the core builders of Via.</p>
+        <p style={{color: "#fff"}}></p>
 
         <table className="data" style={{width:"85%", marginLeft:"10px"}}>
           <tbody>
