@@ -13,7 +13,8 @@ export const missionSections = [
     ],
   },
   {
-    bg: '../img/dm_models_shade.jpg',
+    bg: '../img/aquarius_dm.jpg',
+    overlay: 'gradient',
     kicker: 'Science Pillar',
     title: 'The Nature of Dark Matter',
     paragraphs: [

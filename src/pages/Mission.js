@@ -26,7 +26,7 @@ function Mission() {
         </div>
       ))}
 
-      <Section plot="../img/Crab_Nebula_wide.jpg" plotBg="#000">
+      <Section plot="../img/Crab_Nebula_wide.jpg" plotBg="#000" sectionStyle={{ paddingTop: "0", minHeight: "0" }}>
         <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Science Pillar</h4>
         <h3 style={{paddingBottom:"5px"}}>Characterizing the Transient Universe</h3>
         <p>How do massive stars interact in binaries, shed their outer layers before exploding, and collapse into compact remnants? 

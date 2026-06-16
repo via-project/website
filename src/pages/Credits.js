@@ -21,10 +21,9 @@ function Credits() {
         {data.map((item, index) => (
           <MediaEntry
             key={index}
-            name={item.name}
-            source={item.source}
+            image={item.image}
             author={item.author}
-            web={item.web}
+            creditUrl={item.creditUrl}
             description={item.description}
           />
         ))}

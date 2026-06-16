@@ -13,8 +13,8 @@ function Instrument() {
       <Section bg="../img/viaspec_fps_med.png" overlay="optional" inner="left-bottom">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Focal Plane System</h3>
-        <p>Viaspec will be fed by 576 robotic fibers, positioned in the focal plane by vertically-oriented actuators. The spectrograph also receives light from 60 fixed fiducial fibers spread across the focal plane which serve as sky fibers, and are used to calibrate the metrology system. 
-          A continuous calibration system feeds modulated arc light to another 60 fibers interspersed in the spectrograph slit, providing stable simultaneous wavelength calibration with every exposure. 
+        <p>The Via focal plane consists of 576 robotic fiber positioners, each with two rotating degrees of freedom covering a 130 arcsecond patrol radius. 
+          The focal plane also contains 60 fixed fiducial fibers that are used to calibrate the metrology system, and which serve as sky fibers for Viaspec. 
            Optical fibers travel on the neutral axis of a controlled-radius cable carrier in the fiber derotator, and onto a fiber chain towards the bench spectrograph.</p>
         <table className="data">
           <tbody>
@@ -31,7 +31,7 @@ function Instrument() {
               <td>Fiber Size</td><td>1.15"<span> / 200μm</span></td>
             </tr>
             <tr>
-              <td>Patrol Region</td><td>155"<span> / 25.9mm</span></td>
+              <td>Patrol Region</td><td>132"<span> / 22.9mm</span></td>
             </tr>
           </tbody>
         </table>
@@ -40,7 +40,7 @@ function Instrument() {
       <Section plot="../img/viaspec_rays.png" plotBg="#000" plotWidth="75%">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Viaspec Bench Spectrograph</h3>
-        <p>Viaspec is a bench spectrograph that receives 536 fibers, located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high grating efficiency. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>
+        <p>Viaspec is a bench spectrograph that receives 660 fibers (540 from robotic positioners, 60 from fixed fiducial sky fibers, 60 from the continuous wavelength calibration system), located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high grating efficiency. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>
         <table className="data">
           <tbody>
             <tr>
