@@ -5,6 +5,7 @@ export const NAV = [
   { to: "/instrument", label: "Instrument" },
   { to: "/telescopes", label: "Telescopes" },
   { to: "/survey", label: "Survey" },
+  { to: "/science-book", label: "Science Book" },
   { to: "/team", label: "Team" },
   { to: "/visualizations", label: "Visualizations" },
 ];

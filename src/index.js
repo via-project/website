@@ -11,6 +11,7 @@ import Survey from "./pages/Survey";
 import Team from "./pages/Team";
 import Credits from "./pages/Credits";
 import Support from "./pages/Support";
+import ScienceBook from "./pages/ScienceBook";
 
 // Plotly makes up most of the JS bundle, so load the visualization route
 // lazily — it ships as its own chunk fetched only when /visualizations
@@ -43,6 +44,7 @@ export default function App() {
           <Route path="instrument" element={<Instrument />} />
           <Route path="telescopes" element={<Telescopes />} />
           <Route path="survey" element={<Survey />} />
+          <Route path="science-book" element={<ScienceBook />} />
           <Route path="team" element={<Team />} />
           <Route path="credits" element={<Credits />} />
           <Route path="support" element={<Support />} />

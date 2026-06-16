@@ -62,7 +62,7 @@ function Instrument() {
         <Section plot="../img/boombox_cad.png">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Boombox Spectrograph</h3>
-        <p>Boombox is a companion instrument to Viaspec for low-resolution spectroscopy, accepting 36 fibers from the focal plane. The 36 Boombox fibers are arranged throughout the Via focal plane in a spoke design, optimized for targeting flexibility, allowing modest field-center and instrument-rotation offsets. The Boombox spectrograph consists of a two-channel optical system: a blue channel (3600–5900 Å) and a red channel (5700–10100 Å).</p>
+        <p>Boombox is a companion instrument to Viaspec for low-resolution spectroscopy, accepting 36 fibers from the focal plane. The 36 Boombox fibers are arranged throughout the Via focal plane in a spoke design, optimized for targeting flexibility, allowing modest field-center and instrument-rotation offsets. The Boombox spectrograph consists of a two-channel optical system: a blue channel (360–590 nm) and a red channel (570–1010 nm).</p>
         <table className="data">
           <tbody>
             <tr>
