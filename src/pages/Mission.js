@@ -3,9 +3,8 @@ import { missionSections } from '../data/mission';
 function Mission() {
   return (
     <>
-      {/* Flexible top block: sized to its content so the intro text fits
-          comfortably on screen with margin, while the pillars below stay full-height. */}
-      <div className="section section-compact">
+      {/* Full-height intro block with vertically-centered text, matching the pillars. */}
+      <div className="section section-compact section-centered" style={{ minHeight: "100vh" }}>
         <div className="background" style={{ backgroundImage: "url(../img/mission_tng.jpg)", backgroundPosition: "center top" }}></div>
         <div className="content-below-nav">
           <p className="inspiration">What is the nature of dark matter?<br/>
