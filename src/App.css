@@ -537,7 +537,7 @@ a:not(.hover-none):hover {
   background-size: cover;
 }
 .survey-bg-dim {
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .survey-content {
   position: relative;
@@ -617,7 +617,7 @@ a:not(.hover-none):hover {
 .background-dim {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /* Vertically center a section's content (Science Book). The content wrapper is
    the only in-flow flex item (bg/dim are absolute), so its auto margins float it
