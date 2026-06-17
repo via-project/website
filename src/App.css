@@ -541,7 +541,7 @@ a:not(.hover-none):hover {
   background-size: cover;
 }
 .page-bg-dim {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .survey-content {
   position: relative;
