@@ -31,18 +31,18 @@ export const leadership = [
 export const members = [
   {
     institution: 'At Carnegie:',
-    names: 'David Cruz, Julian Garcia, Charlie Hull, Jake Nibauer, Jack Piotrowski, Tony Piro, Josh Simon',
+    names: 'Ebtihal Abdelaziz, Andrew Benson, Luke Bouma, Jeffrey Crane, David Cruz, Sten Delos, Julian Garcia, Charlie Hull, Casey Lam, Jake Nibauer, Nondh Panithanpaisal, Jack Piotrowski, Tony Piro, Josh Simon, Jessica Spake, Shreyas Vissapragada, Newlin Weatherford, Julie Xue',
   },
   {
     institution: 'At the CfA:',
-    names: 'Dan Baldwin, Carl Barcroft, Nelson Caldwell, Phill Cargile, Dan Catropa, Vedant Chandra, Andrew Cline, Liam Connor, Peter Doherty, Danielle Frostig, Ben Johnson, Jan Kansky, Vlad Kradinov, Kyle MacKenzie, Catherine Miller, Sean Moran, Mark Mueller, Brian McLeod, Martin Paegert, Anya Phillips, Andrew Schalk, Ashley Villar, Abby White, Joe Zajac',
+    names: 'Dan Baldwin, Carl Barcroft, Warren Brown, Nelson Caldwell, Phill Cargile, Dan Catropa, Vedant Chandra, Andrew Cline, Liam Connor, Peter Doherty, Yize Dong, Daniel Durusky, Danielle Frostig, Matthew Holman, Ben Johnson, Jan Kansky, Vlad Kradinov, Scott Lucchini, Kyle MacKenzie, Morgan MacLeod, Stephanie Melikian, Catherine Miller, Sean Moran, Mark Mueller, Alex McCarthy, Brian McLeod, Karin Öberg, Martin Paegert, Anya Phillips, William Podgorski, Andrew Schalk, Hunter Snell, Zachary Svec, David Theroux, Andrew Vanderburg, Ashley Villar, Matthew Werneken, Abby White, Joe Zajac',
   },
   {
     institution: 'At Stanford:',
-    names: 'Christian Aganze, Jay Baptista, Susan Clark, Tara Dacunha, Ben Dodge, Phil Mansfield, Viraj Manwadkar, Risa Wechsler',
+    names: 'Christian Aganze, Jay Baptista, Susan Clark, Tara Dacunha, Ben Dodge, Phil Mansfield, Viraj Manwadkar, Jean Somalwar, Risa Wechsler, Xinyue Zhang',
   },
   {
     institution: 'At Yale:',
-    names: 'William Cerny, Marla Geha, Pieter van Dokkum',
+    names: 'Earl Bellinger, William Cerny, Marla Geha, Malena Rice, Pieter van Dokkum',
   },
 ];

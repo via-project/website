@@ -41,4 +41,14 @@ export const missionSections = [
       'To disentangle the interplay between these processes, we need to observe the cold gas directly as it rains from the halo. The Via Project will resolve individual gas clouds and precisely measure the density and velocity structure of cold gas in the halo. This will provide the missing link in our understanding of how our galaxy connects to the cosmic web environment, and where we, and all the other stars and planets, come from.',
     ],
   },
+  {
+    bg: '../img/Crab_Nebula_wide.jpg',
+    overlay: 'gradient',
+    kicker: 'Science Pillar',
+    title: 'Characterizing the Transient Universe',
+    paragraphs: [
+      'How do massive stars interact in binaries, shed their outer layers before exploding, and collapse into compact remnants? The most extreme transient events in the night sky probe these questions directly — hydrogen-poor superluminous supernovae (SLSNe), fast blue optical transients (FBOTs), luminous red novae, strongly interacting supernovae, tidal disruption events, and entirely new classes of explosions.',
+      'The Vera Rubin Observatory will transform this field, generating roughly 7 million alerts every night and discovering millions of supernovae, thousands of tidal disruption events, and vast numbers of rarer transients. But Rubin detects these events only photometrically; spectroscopy is what classifies them and reveals their central engines, progenitors, and environments. Low-resolution spectroscopic follow-up with Via’s Boombox instrument will turn this flood of discoveries into comprehensive population-level studies of the explosive transient universe.',
+    ],
+  },
 ];

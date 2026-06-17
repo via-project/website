@@ -483,6 +483,41 @@ a:not(.hover-none):hover {
   .plot-figure { flex: none; }
 }
 
+/* Survey hero: intro text + footprint figure. Each is capped under half the
+   row and the whole row is width-capped + centered, so the figure can't
+   balloon on large screens. Stacks vertically on narrow screens. */
+.survey-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1.5rem, 4vw, 3.5rem);
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: calc(var(--header-height) + 2.5rem) clamp(20px, 6vw, 90px) 2.5rem;
+}
+.survey-hero-text,
+.survey-hero-figure {
+  flex: 1 1 0;
+}
+.survey-hero-text { max-width: 40%; text-align: left; }
+.survey-hero-figure { max-width: 60%; display: flex; justify-content: center; }
+.survey-hero-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 900px) {
+  .survey-hero {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+    padding-top: calc(var(--header-height) + 1.5rem);
+  }
+  .survey-hero-text,
+  .survey-hero-figure { max-width: 100%; }
+}
+
 /* A background section sized to its content (not a full viewport), with the
    image stretched to cover the reduced height. For short intro blocks; pair
    with .content-below-nav for the text and set background-position to choose
@@ -498,6 +533,18 @@ a:not(.hover-none):hover {
   height: auto;
 }
 
+/* Vertically center the text block within a full-height section. The
+   background/gradient are absolutely positioned, so the only in-flow flex item
+   is .content-below-nav, which gets centered. */
+.section-compact.section-centered {
+  display: flex;
+  align-items: center;
+}
+.section-compact.section-centered > .content-below-nav {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 
 .section {
   height: 100%;
@@ -511,6 +558,34 @@ a:not(.hover-none):hover {
 .section--auto {
   height: auto;
   min-height: 100%;
+  position: relative;
+}
+/* Full-bleed background image + dim filter that cover a content-sized section. */
+.section--auto > .background,
+.section--auto > .background-dim {
+  inset: 0;
+  height: auto;
+}
+/* Uniform dark filter over a background image. Unlike .background-gradient
+   (directional, for left-aligned text), this dims evenly for centered content. */
+.background-dim {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+/* Vertically center a section's content (Science Book). The content wrapper is
+   the only in-flow flex item (bg/dim are absolute), so its auto margins float it
+   to center when it fits and collapse to the top offset when it overflows. */
+.section--center {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-top: calc(var(--header-height) + 20px);
+  padding-bottom: 40px;
+}
+.section--center #heading {
+  padding-top: 0;
 }
 
 
@@ -573,13 +648,29 @@ a:not(.hover-none):hover {
    a fixed-height panel, so the text never rides up under the navbar. */
 .section-flow {
   height: auto;
-  min-height: 100%;
+  min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* Nav clearance + a halved top margin. The content centers vertically when it
+     fits (large screens) and collapses to this offset when it overflows (small
+     screens), so it never rides up under the nav. */
+  padding-top: calc(var(--header-height) + 20px);
+  padding-bottom: 40px;
 }
 .section-flow > .background,
 .section-flow > .background-gradient {
   inset: 0;
   height: auto;
+}
+/* The roster floats to the vertical center on tall screens (auto margins absorb
+   the slack) and pins to the top offset above when content exceeds the viewport. */
+.section-flow > .content-below-nav {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .content-below-nav {
   position: relative;

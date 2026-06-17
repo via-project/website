@@ -37,12 +37,16 @@ function ScienceBook() {
   };
 
   return (
-    <>
-      <div id="heading">
-        <h2>Science Book</h2>
-      </div>
+    <div className="section section--auto section--center">
+      <div className="background" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
+      <div className="background-dim"></div>
 
-      <div style={{ maxWidth: "760px", margin: "0 auto", padding: "0 30px 90px", color: "#fff", textAlign: "left" }}>
+      <div style={{ position: "relative", zIndex: 1, marginTop: "auto", marginBottom: "auto" }}>
+        <div id="heading">
+          <h2>Science Book</h2>
+        </div>
+
+        <div style={{ maxWidth: "760px", margin: "0 auto", padding: "0 30px 90px", color: "#fff", textAlign: "left" }}>
         <p style={{ color: "#ddd", lineHeight: 1.7 }}>
           The Science Book lays out Via's scientific motivation, instrument design, and
           survey strategy.
@@ -65,7 +69,8 @@ function ScienceBook() {
           <pre style={{ background: "#111", border: "1px solid #333", borderRadius: "4px", padding: "1rem", overflowX: "auto", color: "#cdd6f4", font: "13px/1.6 monospace", margin: 0 }}>{BIBTEX}</pre>
         </div>
       </div>
-    </>
+      </div>
+    </div>
   );
 }
 

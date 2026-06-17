@@ -37,7 +37,7 @@ function Instrument() {
         </table>
       </Section>
 
-      <Section plot="../img/viaspec_rays.png" plotBg="#000" plotWidth="75%">
+      <Section plot="../img/viaspec_rays.png" plotWidth="75%">
         {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Component</h4> */}
         <h3 style={{paddingBottom:"5px"}}>Viaspec Bench Spectrograph</h3>
         <p>Viaspec is a bench spectrograph that receives 660 fibers (540 from robotic positioners, 60 from fixed fiducial sky fibers, 60 from the continuous wavelength calibration system), located in a gravity-invariant, thermally stable enclosure. It will employ a binary grating that spans the spectral region between the Mgb triplet (for precise radial velocity measurement) and the NaD doublet (for detecting interstellar gas) with a uniformly high grating efficiency. The camera has six optical elements and produces a high-quality image on a single large-frame CCD.</p>

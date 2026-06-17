@@ -1,30 +1,27 @@
-import Section from '../components/Section';
 import { surveys, ancillarySurveys } from '../data/surveys';
 
 function Survey() {
   return (
-    <>
-      <Section plot="../img/footprint_dark.png" plotBg="#000">
-        {/* <h4 style={{textTransform:"uppercase", paddingBottom:"5px"}}>Overview</h4> */}
-        <h3 style={{paddingBottom:"5px"}}>Survey Design</h3>
-        <p style={{color: "#fff"}}>The Via Survey aims to observe at least 500 nights, combining time at the 6.5m MMT and Magellan/Clay telescopes over five years. 
-        Each field is observed for 1 hour, with some &lsquo;deep&rsquo; fields (faint dwarf galaxies, perturbed regions of streams) observed for up to 10 hours.
-        These key projects will determine the pointing centers for Via Survey observations. In most cases the number of targets associated with each project is far less than the number of fibers available - the remaining fibers will be allocated to a suite of ancillary science cases.</p>
+    <div className="section section--auto">
+      <div className="background" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
+      <div className="background-dim"></div>
 
-        {/* <table className="data">
-          <tbody>
-            <tr>
-              <td>RV accuracy at G = 19 ([Fe/H] = -1<span>/-2</span>)</td><td>{'100 m/s'}<span> / 300 m/s</span></td>
-            </tr>
-            <tr>
-              <td>[Fe/H] accuracy at G = 19 ([Fe/H] = -1<span>/-2</span>)</td><td>{'0.02 dex'}<span> / 0.04 dex</span></td>
-            </tr>
-          </tbody>
-        </table> */}
-      </Section>
+      <div style={{ position: "relative", zIndex: 1 }}>
+        {/* Survey Design — text and footprint plot, each capped under half-width */}
+        <div className="survey-hero">
+          <div className="survey-hero-text">
+            <h3 style={{ paddingBottom: "5px" }}>Survey Design</h3>
+            <p style={{ color: "#fff" }}>The Via Survey aims to observe at least 500 nights, combining time at the 6.5m MMT and Magellan/Clay telescopes over five years.
+            Each field is observed for 1 hour, with some &lsquo;deep&rsquo; fields (faint dwarf galaxies, perturbed regions of streams) observed for up to 10 hours.
+            These key projects will determine the pointing centers for Via Survey observations. In most cases the number of targets associated with each project is far less than the number of fibers available - the remaining fibers will be allocated to a suite of ancillary science cases.</p>
+          </div>
+          <div className="survey-hero-figure">
+            <img src="../img/footprint_dark.png" alt="All-sky map of the Via survey footprint and its key projects" />
+          </div>
+        </div>
 
-      <div className="section section--auto" style={{ backgroundColor: "#000", color: "#fff" }}>
-        <div style={{ maxWidth: "860px", margin: "0 auto", padding: "0px 30px 90px", textAlign: "left" }}>
+        {/* The Via Surveys list */}
+        <div style={{ maxWidth: "860px", margin: "0 auto", padding: "20px 30px 90px", textAlign: "left", color: "#fff" }}>
           <h4 style={{ textTransform: "uppercase", paddingBottom: "5px" }}>The Via Surveys</h4>
           {surveys.map((s) => (
             <div key={s.title} style={{ marginBottom: "1.8rem" }}>
@@ -42,7 +39,7 @@ function Survey() {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
