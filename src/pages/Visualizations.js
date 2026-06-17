@@ -161,7 +161,7 @@ const Visualizations = () => {
   return (
     <div
       style={{
-        padding: "110px 1.5rem 2rem",
+        padding: "110px 1.5rem 0",
         backgroundColor: "#000",
         color: "#fff",
         minHeight: "100vh",
@@ -199,6 +199,11 @@ const Visualizations = () => {
         </div>
       </section>
 
+      {/* The explorer is at least one viewport tall (minus a small top margin),
+          so when scrolled all the way down its heading lands just below the top
+          of the screen — automatically, at any screen size. On short screens the
+          content already exceeds this, so the min-height simply has no effect. */}
+      <div style={{ minHeight: "calc(100vh - 2.5rem)" }}>
       <h1 style={{ fontSize: "1.8rem", marginBottom: "0.3rem" }}>
         Stream Impact Explorer
       </h1>
@@ -533,6 +538,7 @@ const Visualizations = () => {
         style={{ width: "100%", height: "550px" }}
         useResizeHandler={true}
       />
+      </div>
     </div>
   );
 };
