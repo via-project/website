@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Plot from "react-plotly.js";
 import Title from "../Title";
+import YouTubeEmbed from "../components/YouTubeEmbed";
 
 const logmGrid = [7.0, 7.2, 7.5, 7.8, 8.0];
 const rmultGrid = [0.5, 1, 2];
@@ -174,13 +175,7 @@ const Visualizations = () => {
       <section style={{ marginBottom: "3.5rem" }}>
         <h1 style={{ fontSize: "1.8rem", marginBottom: "1rem" }}>Project Trailer</h1>
         <div style={{ width: "75%", margin: "0 auto", aspectRatio: "16 / 9" }}>
-          <iframe
-            style={{ width: "100%", height: "100%", border: 0 }}
-            src="https://www.youtube.com/embed/CWfUNy6iog4?rel=0"
-            title="The Via Project trailer"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <YouTubeEmbed id="CWfUNy6iog4" title="The Via Project trailer" />
         </div>
       </section>
 
@@ -189,13 +184,7 @@ const Visualizations = () => {
           Dark Matter and Stellar Streams
         </h1>
         <div style={{ width: "75%", margin: "0 auto", aspectRatio: "16 / 9" }}>
-          <iframe
-            style={{ width: "100%", height: "100%", border: 0 }}
-            src="https://www.youtube.com/embed/KGSWs0MtnUc?rel=0"
-            title="Dark Matter and Stellar Streams"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <YouTubeEmbed id="KGSWs0MtnUc" title="Dark Matter and Stellar Streams" />
         </div>
       </section>
 
