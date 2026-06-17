@@ -163,13 +163,16 @@ const Visualizations = () => {
     <div
       style={{
         padding: "110px 1.5rem 0",
-        backgroundColor: "#000",
         color: "#fff",
         minHeight: "100vh",
         width: "100%",
         boxSizing: "border-box",
       }}
     >
+      {/* Shared galaxy backdrop, consistent with the other pages. */}
+      <div className="page-bg" style={{ backgroundImage: "url(img/mw_igor_desktop.jpg)" }}></div>
+      <div className="page-bg-dim"></div>
+
       <Title />
 
       <section style={{ marginBottom: "3.5rem" }}>

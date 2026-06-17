@@ -522,21 +522,25 @@ a:not(.hover-none):hover {
 /* Survey page: one centered column — overview text, footprint figure (~half
    the screen wide), then the survey descriptions. Text blocks share a single
    readable width so everything lines up. */
-/* Fixed backdrop pinned to the viewport (z-index:-1 keeps it behind the nav and
-   content, which both paint at z-index >= 0). */
-.survey-bg,
-.survey-bg-dim {
+/* Shared page backdrop: a fixed, viewport-sized galaxy image + uniform dim.
+   Fixed (not section-sized) so the image is scaled to the viewport — sharp and
+   identical on every page regardless of how tall the content is — and the
+   content scrolls past it. z-index:-1 keeps it behind the nav and content,
+   which both paint at z-index >= 0. Used by Survey, Team, Science Book, and
+   the Visualizations page. */
+.page-bg,
+.page-bg-dim {
   position: fixed;
   inset: 0;
   z-index: -1;
 }
-.survey-bg {
+.page-bg {
   background-color: #000;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.survey-bg-dim {
+.page-bg-dim {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .survey-content {
@@ -606,18 +610,10 @@ a:not(.hover-none):hover {
   min-height: 100%;
   position: relative;
 }
-/* Full-bleed background image + dim filter that cover a content-sized section. */
-.section--auto > .background,
-.section--auto > .background-dim {
+/* Full-bleed background image that covers a content-sized section. */
+.section--auto > .background {
   inset: 0;
   height: auto;
-}
-/* Uniform dark filter over a background image. Unlike .background-gradient
-   (directional, for left-aligned text), this dims evenly for centered content. */
-.background-dim {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 /* Vertically center a section's content (Science Book). The content wrapper is
    the only in-flow flex item (bg/dim are absolute), so its auto margins float it

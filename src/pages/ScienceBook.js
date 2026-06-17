@@ -18,8 +18,8 @@ const btn = {
 function ScienceBook() {
   return (
     <div className="section section--auto section--center">
-      <div className="background" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
-      <div className="background-dim"></div>
+      <div className="page-bg" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
+      <div className="page-bg-dim"></div>
 
       <div style={{ position: "relative", zIndex: 1, marginTop: "auto", marginBottom: "auto" }}>
         <div id="heading">

@@ -4,8 +4,8 @@ import { leadership, members } from '../data/team';
 function Team() {
   return (
     <div className="section section-flow">
-      <div className="background" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
-      <div className="background-dim"></div>
+      <div className="page-bg" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
+      <div className="page-bg-dim"></div>
 
       <div className="content-below-nav">
         <h3>The Via Team</h3>
