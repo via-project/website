@@ -3,8 +3,11 @@ import { surveys, ancillarySurveys } from '../data/surveys';
 function Survey() {
   return (
     <div className="section section--auto">
-      <div className="background" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
-      <div className="background-dim"></div>
+      {/* Fixed, viewport-sized galaxy backdrop — stays put while the content
+          scrolls past, and is sharp because it's scaled to the viewport rather
+          than upscaled across the whole tall page. */}
+      <div className="survey-bg" style={{ backgroundImage: "url(../img/mw_igor_desktop.jpg)" }}></div>
+      <div className="survey-bg-dim"></div>
 
       <div className="survey-content">
         {/* Overview */}
