@@ -16,7 +16,7 @@ function Survey() {
             These key projects will determine the pointing centers for Via Survey observations. In most cases the number of targets associated with each project is far less than the number of fibers available - the remaining fibers will be allocated to a suite of ancillary science cases.</p>
           </div>
           <div className="survey-hero-figure">
-            <img src="../img/footprint_dark.png" alt="All-sky map of the Via survey footprint and its key projects" />
+            <img src="../img/footprint_transparent.png" alt="All-sky map of the Via survey footprint and its key projects" />
           </div>
         </div>
 

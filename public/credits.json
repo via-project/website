@@ -92,7 +92,7 @@
   },
   {
     "page": "survey",
-    "image": "img/footprint_dark.png",
+    "image": "img/footprint_transparent.png",
     "author": "Via Team",
     "creditUrl": "https://via-project.org",
     "description": "Footprint of the Via survey in Galactic coordinates, showing the stream perturbation, dwarf galaxy, cold gas, and transient follow-up target fields."
